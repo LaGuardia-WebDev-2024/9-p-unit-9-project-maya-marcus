@@ -13,8 +13,12 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("click for answer!", 176, 200);
+   
+  }
+   if (answer == 1) {
+    text("lookin like a no)", 176, 200);
+   
   }
   
 };
