@@ -16,6 +16,7 @@ draw = function(){
   
   noStroke();
   if (mousePressed){
+    fill (randgreen,randred,randblue);
     ellipse (mouseX,mouseY,20,20);
   }
 
